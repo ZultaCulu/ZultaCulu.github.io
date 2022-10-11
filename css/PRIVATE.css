@@ -1,24 +1,3 @@
 header{
     color: #880808;
 }
-
-#users {
-    position: relative;
-    right: -100%;
-    display: none;
-    color: #FFF; }
-  
-  #logOut {
-    display: none; }
-  
-  #userProfileIcon {
-    width: 10em;
-    height: 10em; }
-  
-  #accountDelete {
-    color: red;
-    display: none; }
-  
-  #DA {
-    display: none; }
-  

@@ -6,7 +6,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="/js/main.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -14,6 +13,122 @@
     </head>
 
     <body>
+        <!--
+        - #SIDEBAR
+      -->
+
+      <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+          <figure class="avatar-box">
+            <img src="/assets/img/pic.png" alt="Zulta" width="80">
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Zulta">Zulta</h1>
+
+            <p class="title">Game Dev||Artist&Animator||Composer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn="">
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:wolfmaster30306@gmail.com" class="contact-link">wolfmaster30306@gmail.com</a>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2006-03-03">March 3, 2006</time>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Idaho, USA</address>
+              </div>
+
+            </li>
+
+          </ul>
+
+          <div class="separator"></div>
+
+      </aside>
+
+    <!-- 
+      custom js
+    !-->
+    <script src="js/main.js"></script>
+
+        <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+
+            <ul class="navbar-list">
+  
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>About</button>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="portfoilo.html"><button class="navbar-link" data-nav-link>Portfolio</button></a>
+              </li>
+  
+              <li class="navbar-item">
+                <a target="_blank" href="https://zulta.carrd.co/#contact"><button class="navbar-link" data-nav-link>Contact</button></a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="/animation.html"><button class="navbar-link active">Cool JS Thing</button></a>
+              </li>
+
+              <li class="navbar-item">
+                <a target="_blank" href="https://zultaculu.github.io/This_Site_Is_Not_Secure"><button class="navbar-link" data-nav-link>This Site Is Not Secure</button></a>
+              </li>
+  
+            </ul>
+  
+          </nav>
         <section>
             <div>
                 <script src="/js/animation.js"></script>

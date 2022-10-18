@@ -495,7 +495,10 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.about .article-title { 
+  margin-bottom: 15px; 
+  margin-top: 40px;
+}
 
 .about-text {
   color: var(--light-gray);

@@ -1820,6 +1820,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin: 0;
   }
 
+img.social-link {
+  width: 12%;
+  height: 12%;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+}
 
 
   /**
@@ -1884,3 +1891,45 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+ /* Dropdown Button */
+ .dropbtn {
+  background-color:;
+  color: rgb(192, 192, 192);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  hsl(240, 2%, 13%);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #8a8a8a; border-radius: 20px;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block; border-radius: 20px;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:#424242; border-radius: 20px;} 

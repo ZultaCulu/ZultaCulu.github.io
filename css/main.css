@@ -1941,3 +1941,10 @@ img.social-link {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color:#424242; border-radius: 20px;} 
 
+@media only screen and (max-width: 1080px) {
+  .dropdown {
+    position: relative;
+    top : 0px;
+  }
+}
+ 

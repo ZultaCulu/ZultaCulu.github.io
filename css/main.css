@@ -1925,6 +1925,13 @@ img.social-link {
   display: block;
 }
 
+#navbar-dropdown {
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  padding: 20px 7px;
+  transition: color var(--transition-1);
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #8a8a8a; border-radius: 20px;}
 

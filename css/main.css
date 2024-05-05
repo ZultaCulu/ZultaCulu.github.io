@@ -1931,6 +1931,10 @@ img.social-link {
   transition: color var(--transition-1);
 } 
 
+.submenu {
+  float: left;
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #8a8a8a; border-radius: 20px;}
 

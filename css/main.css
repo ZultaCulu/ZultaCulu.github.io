@@ -1821,8 +1821,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 img.social-link {
-  width: 12%;
-  height: 12%;
+  width: 10%;
+  height: 10%;
   margin-right: 10px;
   margin-top: 10px;
   float: left;
@@ -1944,6 +1944,11 @@ img.social-link {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color:#424242; border-radius: 20px;} 
 
+.teaser_img {
+  height: 50%;
+  width: 50%;
+}
+
  
 @media only screen and (max-width: 768px) {
   .dropbtn {
@@ -1986,8 +1991,8 @@ img.social-link {
   }
 
 img.social-link {
-  height: 75%;
-  width: 75%;
+  height: 50%;
+  width: 50%;
 }
 
    /* Three image containers (use 25% for four, and 50% for two, etc) */

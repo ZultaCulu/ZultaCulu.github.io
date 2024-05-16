@@ -1957,6 +1957,11 @@ img.social-link {
     font-size: 16px;
     border: none;
   }
+
+  img.social-link {
+    height: 45%;
+    width: 45%;
+  }
   
   .dropdown {
     position: relative;

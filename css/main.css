@@ -1837,9 +1837,9 @@ img.music-link {
 }
 
 img.dev-link {
-  width: 40%;
-  height: 40%;
-  margin-right: 10px;
+  width: 25%;
+  height: 25%;
+  margin-right: 20px;
   margin-top: 5px;
   float: left;
 }

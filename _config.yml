@@ -1,3 +1,6 @@
 ---
-permalink: /socials/
+collections:
+    pages:
+        path: /socials.html/
+        permalink: socials/
 ---
